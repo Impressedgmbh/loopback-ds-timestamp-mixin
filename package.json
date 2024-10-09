@@ -1,8 +1,9 @@
 {
   "name": "loopback-ds-timestamp-mixin",
-  "version": "3.4.2",
+  "version": "3.4.3",
   "description": "A mixin to automatically generate created and updated Date attributes for loopback Models",
   "main": "index.js",
+  "files": ["index.js", "time-stamp.js", "debug.js"],
   "scripts": {
     "preversion": "npm test",
     "pretest": "eslint ./es6/*.js && npm run build",
